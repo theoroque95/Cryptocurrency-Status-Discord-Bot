@@ -41,4 +41,4 @@ client.on('ready', () => {
 })
 
 // Login to Discord
-client.login('OTU2NTkzMTcwOTI4NTA0ODg0.Yjye0A.OOF1dS8lRXP4M8764vA0KDh6FDA')
+client.login(process.env.MATIC_TOKEN)

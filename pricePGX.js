@@ -41,4 +41,4 @@ client.on('ready', () => {
 })
 
 // Login to Discord
-client.login('OTU2NTg4Mzk3ODY5MzAxODAw.YjyaXg.4zVgz-i7o2l8IOrQuzHG7FZCctQ')
+client.login(process.env.PGX_TOKEN)
